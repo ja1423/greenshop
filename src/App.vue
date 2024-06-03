@@ -10,6 +10,7 @@
     <Trend />
     <BlogPost />
     <Footer />
+    <RouterView />
   </div>
 </template>
 
@@ -22,6 +23,8 @@ import Product from "./components/Product.vue";
 import Trend from "./components/Trend.vue";
 import BlogPost from "./components/BlogPost.vue";
 import Footer from "./components/Footer.vue";
+// import Shop-products from "./components/Shop-products.vue";
+import { RouterView } from "vue-router";
 // import Intro from "./components/Intro.vue";
 export default {
   components: {
@@ -33,6 +36,9 @@ export default {
     Trend,
     BlogPost,
     Footer,
+    RouterView,
+    // Shop-products,
+    // Intro,
   },
   data() {
     return {};
